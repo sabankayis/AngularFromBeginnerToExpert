@@ -1,0 +1,17 @@
+#output {
+    display: block; /* Kelimelerin alt satıra geçebilmesi için block olarak ayarlandı */
+}
+
+.letter {
+    margin-right: 0px; /* Harfler arası boşluk */
+}
+
+.space {
+    display: inline; /* Boşluk <span>'ı inline olarak ayarlandı */
+    margin-right: 0px; /* Boşluklar için daha fazla alan */
+}
+
+.word {
+    display: inline-block; /* Her kelimenin alt satıra geçebilmesi için inline-block olarak ayarlandı */
+    margin-right: 5px; /* Kelimeler arası boşluk */
+}

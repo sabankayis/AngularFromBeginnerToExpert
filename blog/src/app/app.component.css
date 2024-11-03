@@ -1,0 +1,21 @@
+body {
+    font-family: 'Fira Code', monospace; /* Visual Studio Code'daki font */
+    font-size: 1.2em; /* Yazı boyutunu artırma */
+    margin: 5px; /* Kenar boşlukları */
+    font-style: italic; /* İtalik stil */
+}
+#output {
+    display: block; /* Kelimelerin alt satıra geçebilmesi için block olarak ayarlandı */
+    flex-wrap: wrap; /* Taşma durumunda kelimeleri alt satıra alır */
+}
+.letter {
+    margin-right: 0px; /* Harfler arası boşluk */
+}
+.space {
+    display: inline; /* Boşluk <span>'ı inline olarak ayarlandı */
+    margin-right: 0px; /* Boşluklar için daha fazla alan */
+}
+.word {
+    display: inline-block; /* Her kelimenin alt satıra geçebilmesi için inline-block olarak ayarlandı */
+    margin-right: 5px; /* Kelimeler arası boşluk */
+}

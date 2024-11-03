@@ -1,0 +1,13 @@
+{
+    "App":{
+        "Hello":"Merhaba",
+        "LoginPage":"Giriş Sayfası",
+        "HpmePage" : "Ana sayfa"
+    },
+    "Home":{
+        "HomeWorks":"Ana sayfa çalışıyor!"
+    },
+    "Login":{
+        "LoginWorks":"Giriş sayfası çalışıyor!"
+    }
+}

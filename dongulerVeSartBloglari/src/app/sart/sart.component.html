@@ -1,0 +1,11 @@
+<h1>Koşul- Şart İfadeleri!</h1>
+@if (showFirstWord) {
+    <p style="color: red;">Birinci Yazı</p>
+}
+@if (showSecondWord) {
+    <p style="color: green;">İkinci Yazı</p>
+}
+
+<hr>
+<button (click)="show(1)">Birinci yazıyı göster</button>
+<button (click)="show(2)">İkinci yazıyı göster</button>

@@ -1,0 +1,29 @@
+<ngx-spinner bdColor = "rgba(0, 0, 0, 0.8)" size = "medium" color = "#fff" type = "timer" [fullScreen] = "true"><p style="color: white" > Loading... </p></ngx-spinner>
+
+<button (click)="toast1()">Toastr Çağrı</button>
+<button (click)="callSwal()">SweetAlert</button>
+<button (click)="callsweetAlert()">sweetAlert2</button>
+<button (click)="callSpinner()">Spinnerı çağır</button>
+
+<ul>
+    <li *ngFor="let n of collection | paginate: { itemsPerPage: pageSize, currentPage: p }">
+        {{n}}
+    </li>
+</ul>
+<pagination-controls (pageChange)="p = $event" previousLabel="Önceki" nextLabel="Sonraki"></pagination-controls>
+<select [(ngModel)]="pageSize">
+    <option>5</option>
+    <option>10</option>
+    <option>15</option>
+    <option>20</option>
+    <option>50</option>
+    <option>100</option>
+</select>
+<hr>
+<button (click)="getRequestForPwa()">Api isteği yap PWA</button>
+<hr>
+<ul>
+    <li *ngFor="let l of list">
+        {{l.title}}
+    </li>
+</ul>

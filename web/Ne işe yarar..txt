@@ -1,0 +1,1 @@
+Angularda Routing yaparken aynı roota tekrar gitmek için enter dediğinde 404 hatası veriyor. filezilla ile dosyalarını yüklediğinde bu dosyayıda yüklersen hata düzelir.

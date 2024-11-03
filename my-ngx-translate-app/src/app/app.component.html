@@ -1,0 +1,12 @@
+<h1>{{"App.Hello" | translate}}</h1>
+<a>{{"App.HomePage" | translate}}</a>
+<a>{{"App.LoginPage" | translate}}</a>
+<hr>
+<select #langSelect (change)="translate.use(langSelect.value)">
+    <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang===translate.currentLang">
+        {{
+            lang
+        }}
+    </option>
+</select>
+<router-outlet></router-outlet>
